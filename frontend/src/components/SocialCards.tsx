@@ -11,7 +11,7 @@ export function GithubCard() {
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex size-10 items-center justify-center text-zinc-700 hover:text-[#1C8C57] active:text-[#1C8C57] dark:border-zinc-100 dark:text-zinc-100"
+                className="flex size-8 items-center justify-center text-zinc-700 hover:text-[#1C8C57] active:text-[#1C8C57] dark:border-zinc-100 dark:text-zinc-100"
             >
                 <title>{socials.github.label}</title>
                 <path
@@ -33,7 +33,7 @@ export function InstagramCard() {
                 role="img"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex size-10 items-center justify-center text-zinc-700 hover:text-[#1C8C57] active:text-[#1C8C57] dark:border-zinc-100 dark:text-zinc-100"
+                className="flex size-8 items-center justify-center text-zinc-700 hover:text-[#1C8C57] active:text-[#1C8C57] dark:border-zinc-100 dark:text-zinc-100"
             >
                 <title>{socials.instagram.label}</title>
                 <path
@@ -48,7 +48,7 @@ export function InstagramCard() {
 export function EmailCard() {
     return (
         <a href={socials.email.href} aria-label={`${socials.email.label} Card`}>
-            <Mail className="flex size-10 items-center justify-center text-zinc-700 hover:text-[#1C8C57] active:text-[#1C8C57] dark:border-zinc-100 dark:text-zinc-100" />
+            <Mail className="flex size-8 items-center justify-center text-zinc-700 hover:text-[#1C8C57] active:text-[#1C8C57] dark:border-zinc-100 dark:text-zinc-100" />
         </a>
     );
 }

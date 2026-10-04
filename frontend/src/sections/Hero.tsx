@@ -9,7 +9,7 @@ function Hero() {
         <section
             id="home"
             aria-labelledby="hero-heading"
-            className="relative flex min-h-screen items-center overflow-hidden px-10 py-10 md:px-10 md:p-24 bg-zinc-50 dark:bg-zinc-900 transition-all duration-300"
+            className="relative flex min-h-screen items-center overflow-hidden px-6 py-10 md:px-10 md:p-24 bg-zinc-50 dark:bg-zinc-900 transition-all duration-300"
         >
             <div className="absolute pointer-events-none inset-0 bg-[radial-gradient(60%_50%_at_50%_0%,rgba(28,140,87,0.15),transparent)]" />
             <div className="animate-fade-up mx-auto w-full max-w-5xl top-30 font-inter">
@@ -32,14 +32,14 @@ function Hero() {
                     I create Minecraft skins, 3D models, and web interfaces,
                     combining creativity with code to bring ideas to life.
                 </p>
-                <div className="mt-8 flex flex-wrap items-center gap-4">
+                <div className="my-8 flex flex-wrap items-center gap-4">
                     <a
                         href="#project"
-                        className="inline-flex items-center rounded-lg bg-[#1C8C57] border border-zinc-800 px-4 py-2 text-lg md:text-xl text-zinc-100 transition-transform duration-400 hover:scale-85 active:scale-85"
+                        className="inline-flex items-center rounded-lg bg-[#1C8C57] border border-zinc-800 px-4 py-2 text-lg md:text-xl text-zinc-100 transition-transform duration-400 hover:scale-85 active:scale-85 shadow-xl"
                     >
                         View Projects
                     </a>
-                    <a className="inline-flex items-center rounded-lg bg-transparent border border-[#1C8C57] px-4 py-2 text-zinc-700 dark:text-zinc-100 active:bg-[#1C8C57] hover:bg-[#1C8C57] active:text-zinc-100 hover:text-zinc-100 active:scale-85 hover:scale-85 text-lg md:text-xl transition-all duration-400">
+                    <a className="inline-flex items-center rounded-lg bg-transparent border border-[#1C8C57] px-4 py-2 text-zinc-700 dark:text-zinc-100 active:bg-[#1C8C57] hover:bg-[#1C8C57] active:text-zinc-100 hover:text-zinc-100 active:scale-85 hover:scale-85 text-lg md:text-xl transition-all duration-400 shadow-xl">
                         Contact Me
                     </a>
                 </div>
