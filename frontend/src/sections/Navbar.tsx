@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 import { navItems } from "../datas/navigation";
-
 import { ThemeToggle } from "../components/ThemeToggle";
 
 function Navbar() {
@@ -31,6 +30,7 @@ function Navbar() {
                 <a
                     href={item.href}
                     className="font-semibold text-zinc-700 hover:text-zinc-500 active:text-zinc-500 dark:text-zinc-100 dark:hover:text-zinc-300 dark:active:text-zinc-300"
+                    onClick={closeMenu}
                 >
                     {item.label}
                 </a>
@@ -43,7 +43,7 @@ function Navbar() {
                 <div
                     className={`flex flex-col px-4 py-2 md:px-10 md:py-4 transition-all duration-300 ${
                         isScrolled || isOpen
-                            ? "bg-zinc-200 dark:bg-zinc-800 border border-zinc-300 dark:border-zinc-700 backdrop-blur-sm"
+                            ? "bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 backdrop-blur-sm"
                             : "bg-transparent"
                     }`}
                 >
@@ -84,9 +84,15 @@ function Navbar() {
                                 aria-label="toggle navigation menu"
                             >
                                 {isOpen ? (
-                                    <X className="size-7 md:size-10" strokeWidth={2.25} />
+                                    <X
+                                        className="size-7 md:size-10"
+                                        strokeWidth={2.25}
+                                    />
                                 ) : (
-                                    <Menu className="size-7 md:size-10" strokeWidth={2.25} />
+                                    <Menu
+                                        className="size-7 md:size-10"
+                                        strokeWidth={2.25}
+                                    />
                                 )}
                             </button>
                         </div>
