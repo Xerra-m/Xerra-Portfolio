@@ -28,7 +28,7 @@ function Hero() {
                     I create things I enjoy.
                 </p>
 
-                <p className="mt-10 text-lg md:text-xl leading-relaxed text-zinc-700 dark:text-zinc-100 font-medium">
+                <p className="mt-10 text-lg md:text-xl leading-relaxed text-zinc-600 dark:text-zinc-300 font-medium">
                     I create Minecraft skins, 3D models, and web interfaces,
                     combining creativity with code to bring ideas to life.
                 </p>
