@@ -1,7 +1,6 @@
-import { useState } from "react";
-
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
+import About from "./sections/About.tsx";
 
 function App() {
     return (
@@ -11,6 +10,7 @@ function App() {
             </header>
             <main>
                 <Hero />
+                <About />
             </main>
         </div>
     );
